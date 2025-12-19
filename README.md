@@ -5,6 +5,8 @@ PS1 OSINT Security Scanner is a Python-based, multi-modal OSINT and security ana
 
 This project is designed for educational, research, and defensive security purposes and is tested on Kali Linux (Python 3.10).
 
+
+
 🚀 Key Features
 🔍 Image Analysis
 
@@ -16,6 +18,8 @@ Image similarity search using FAISS
 
 Duplicate detection
 
+
+
 🎥 Video Analysis
 
 Frame extraction using OpenCV
@@ -26,6 +30,8 @@ YOLOv8 object detection (mandatory)
 
 Optional object detection during ingestion
 
+
+
 🧠 Text OSINT
 
 Email, phone number, username detection
@@ -33,6 +39,8 @@ Email, phone number, username detection
 Possible credential leakage detection
 
 Semantic search using MiniLM embeddings + FAISS
+
+
 
 🔊 Audio Analysis
 
@@ -42,6 +50,8 @@ Environment classification (indoor / outdoor)
 
 Speech-to-text transcription (best effort)
 
+
+
 🧬 Git Repository Scanning
 
 Clone public Git repositories
@@ -49,6 +59,8 @@ Clone public Git repositories
 Regex-based secret scanning
 
 Severity-based clean reports (API keys, passwords, secrets)
+
+
 
 📦 FAISS Vector Database
 
@@ -62,6 +74,8 @@ Persistent on-disk storage
 
 Similarity & semantic search
 
+
+
 🔐 Admin Panel (CLI)
 
 Password-protected admin login
@@ -69,6 +83,8 @@ Password-protected admin login
 View database statistics
 
 Reset / wipe all stored data safely
+
+
 
 ⚠️ Mandatory Dependency: YOLOv8
 
@@ -81,6 +97,8 @@ Implemented using the ultralytics library
 Runs on CPU by default (GPU optional)
 
 ❗ If YOLO is not installed, the program will fail.
+
+
 
 🧰 Tech Stack
 
@@ -101,6 +119,8 @@ Pillow / piexif
 GitPython
 
 Librosa & SpeechRecognition
+
+
 
 📁 Project Structure
 ps1-osint/
@@ -178,7 +198,10 @@ Git Repository Scan
 curl -X POST \
 "http://127.0.0.1:8000/ingest/git?url=https://github.com/user/repo"
 
+
+
 🔐 Security & Ethics Disclaimer
+
 
 ⚠️ WARNING
 
@@ -189,6 +212,7 @@ Scan only data you own or have permission to analyze
 Do NOT use on unauthorized systems or networks
 
 Authors are not responsible for misuse
+
 
 🎓 Academic Note
 
@@ -209,6 +233,7 @@ Computer vision (YOLO + CLIP)
 Semantic search
 
 Secure data handling
+
 
 📌 Future Enhancements
 
