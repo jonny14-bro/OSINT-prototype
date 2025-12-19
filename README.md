@@ -1,4 +1,3 @@
-.
 
 🛡️ PS1 – OSINT Security Scanner
 
