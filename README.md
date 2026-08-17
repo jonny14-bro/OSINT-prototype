@@ -1,5 +1,5 @@
 
-# 🛡️ PS1 – OSINT Security Scanner
+# 🛡️ PS1 – OSINT Security Scanner..
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
